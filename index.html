@@ -8,6 +8,7 @@
 <body>
     <div id="main">
         <h1>Необходимо авторизоваться</h1>
+        <input type="text" placeholder="id" id="id">
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
@@ -17,14 +18,14 @@
         function checkInput() {
              var input = document.getElementById("id").value; // получаем значение поля ввода
              if (input === "1017345287") { // проверка на соответствие правильному тексту
-                 window.location.href = "https://webapp.aiogram.com"; // перенаправляем пользователя на другую страницу
+                 window.location.href = "https://core.telegram.org/bots/webapps"; // перенаправляем пользователя на другую страницу
             } else {
                 alert("Введите правильный текст!"); // выводим сообщение об ошибке
             }
         }
     </script>
 
-    <input type="text" placeholder="id" id="id">
+    
     <button onclick="checkInput()">Проверить</button>
 </body>
 </html>
