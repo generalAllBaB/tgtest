@@ -27,6 +27,14 @@
    	font-size: 25px;
    }
 
+   body {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 200;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
+   }
+
+
 }   
 
 @media screen and (max-width: 1400px) {
@@ -47,6 +55,13 @@
 	     width: 800px;
    }
 
+   body {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 200;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
+   }
+
 }
 
 @media screen and (max-width: 998px) {
@@ -65,6 +80,13 @@
         left: 1%;
         height: 60px;
 	     width: 950px;
+   }
+
+   body {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 200;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
    }
 
 }
