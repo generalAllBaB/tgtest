@@ -9,12 +9,11 @@
     <div id="main">
         <h1>Необходимо авторизоваться</h1>
         <input type="text" placeholder="id" id="id">
-        <button id="send_id", onclick="checkInput()">Войти</button>
+        <button onclick="checkInput()">Войти</button>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
-        let send_id = document.getElementById("send_id");
         document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
         function checkInput() {
