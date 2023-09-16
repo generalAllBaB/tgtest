@@ -8,42 +8,25 @@
 <body>
     <div id="main">
         <h1>Необходимо авторизоваться</h1>
-        <button id="open">Перейти к авторизации</button>
-    </div>
-    <form id="form">
         <input type="text" placeholder="id" id="id">
-        <button id="send_id">Войти</button>
-    </form>
+        <button id="send_id", onclick="checkInput()">Войти</button>
+    </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
-        let open = document.getElementById("open");
         let send_id = document.getElementById("send_id");
+        document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
-
-
-        open.addEventListener("click", () => {
-            document.getElementById("main").style.display = "none";
-            document.getElementById("form").style.display = "block";
-            document.getElementById("id").value = tg.initDataUnsafe.user.id;
-        });
-
-        send_id.addEventListener("click", () => {
-          
-                document.getElementById("error").innerText = '';
-                let id = document.getElementById("id").value;
-                if(id.length == 1017345287) {
-                  window.location.href = "https://webapp.aiogram.com";
-                } 
-                else {
-                  document.getElementById("error").innerText = 'Ошибка в id';
-                  return
-                }
-
-
-
-
-        });
+        function checkInput() {
+            document.getElementById("error").innerText = '';
+            let id = document.getElementById("id").value;
+            if (id.length == "1017345287") { 
+                window.location.href = "https://webapp.aiogram.com"; 
+            } else {
+                document.getElementById("error").innerText = 'Ошибка в id';
+                return
+            }
+        }
 
     </script>
 </body>
