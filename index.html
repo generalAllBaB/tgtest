@@ -12,7 +12,7 @@
         <button id="buy">buy</button>
     </div>
     <form id="form">
-        <input type="text" placeholder="id" id="user_id">
+        <input type="text" placeholder="id" id="id">
         <input type="text" placeholder="Email" id="user_email">
         <input type="text" placeholder="Телефон" id="user_phone">
         <button id="order">оформить</button>
@@ -28,7 +28,7 @@
         buy.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
-            document.getElementById("user_id").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
+            document.getElementById("id").value = tg.initDataUnsafe.user.id;
         });
 
         order.addEventListener("click", () => {
