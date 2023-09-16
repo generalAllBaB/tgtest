@@ -31,8 +31,9 @@
             document.getElementById("id").value = tg.initDataUnsafe.user.id;
         });
 
-        order.addEventListener("click", () => {
-            window.location.replace('https://docs.aiogram.dev/en/latest/utils/web_app.html');
+        order.addEventListener("click", (evt) => {
+            evt.preventDefault();
+            document.location.href = "https://www.youtube.com/watch?v=aMi8_FVUSdY";
             
         });
 
