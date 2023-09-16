@@ -1,0 +1,71 @@
+@import
+    "base",
+    "layout",
+    "syntax-highlighting",
+    "bootstrap";
+
+
+@media screen and (max-width: 2200px) {
+   h1 {
+   	font-size: 40px;
+   }
+
+   .button {
+   	font-size: 20px;
+   	color: black;
+   }
+
+   .buttonanswer {
+ 
+        position: relative;
+        left: 20%;
+        height: 30px;
+	     width: 800px;
+   }
+
+   p {
+   	font-size: 25px;
+   }
+
+}   
+
+@media screen and (max-width: 1400px) {
+   h1 {
+   	font-size: 40px;
+   }
+
+   .button {
+   	font-size: 20px;
+   	color: black;
+   }
+
+   .buttonanswer {
+ 
+        position: relative;
+        left: 20%;
+        height: 30px;
+	     width: 800px;
+   }
+
+}
+
+@media screen and (max-width: 998px) {
+	h1 {
+		font-size: 60px;
+	}
+
+   .button {
+   	font-size: 60px;
+   	color: black;
+   }
+
+   .buttonanswer {
+ 
+        position: relative;
+        left: 1%;
+        height: 60px;
+	     width: 950px;
+   }
+
+}
+
