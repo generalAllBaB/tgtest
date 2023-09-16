@@ -16,7 +16,7 @@
         document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
         function checkInput() {
-             var input = document.getElementById("id").value; // получаем значение поля ввода
+             let input = document.getElementById("id").value; // получаем значение поля ввода
              if (input === "1017345287") { // проверка на соответствие правильному тексту
                  window.location.href = "https://core.telegram.org/bots/webapps"; // перенаправляем пользователя на другую страницу
             } else {
