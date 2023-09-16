@@ -17,18 +17,17 @@
         document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
         function checkInput() {
-            document.getElementById("error").innerText = '';
-            let id = document.getElementById("id").value;
-            if (id.length == "1017345287") { 
-                window.location.href = "https://webapp.aiogram.com"; 
+             var input = document.getElementById("id").value; // получаем значение поля ввода
+             if (input === "1017345287") { // проверка на соответствие правильному тексту
+                 window.location.href = "https://webapp.aiogram.com"; // перенаправляем пользователя на другую страницу
             } else {
-                document.getElementById("error").innerText = 'Ошибка в id';
-                return
+                alert("Введите правильный текст!"); // выводим сообщение об ошибке
             }
         }
-
     </script>
-    <button onclick="checkInput()">Войти</button>
+
+    <input type="text" id="input">
+    <button onclick="checkInput()">Проверить</button>
 </body>
 </html>
 
