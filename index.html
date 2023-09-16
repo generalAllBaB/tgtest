@@ -3,38 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Шалом</title>
+    <title>Мой Словарь</title>
 </head>
 <body>
     <div id="main">
-        <h1>Предметы</h1>
-        <p>hi guys. asfddsifdg</p>
-        <button id="buy">buy</button>
+        <h1>Необходимо авторизоваться</h1>
+        <button id="open">Перейти к авторизации</button>
     </div>
     <form id="form">
         <input type="text" placeholder="id" id="id">
-        <input type="text" placeholder="Email" id="user_email">
-        <input type="text" placeholder="Телефон" id="user_phone">
-        <button id="order">оформить</button>
+        <button id="send_id">Войти</button>
     </form>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
-        let buy = document.getElementById("buy");
-        let order = document.getElementById("order");
+        let open = document.getElementById("open");
+        let send_id = document.getElementById("send_id");
         tg.expand();
 
 
-        buy.addEventListener("click", () => {
+        open.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
             document.getElementById("id").value = tg.initDataUnsafe.user.id;
         });
 
-        order.addEventListener("click", (evt) => {
-            evt.preventDefault();
-            document.location.href = "https://www.youtube.com/watch?v=aMi8_FVUSdY";
-            
+        send_id.addEventListener("click", () => {
+            document.getElementById("error").innerText = '';
+            let id = document.getElementById("id").value;
+            if(id.length != 1017345287) {
+                document.getElementById("error").innerText = 'Ошибка в id';
+                return
+            }
+
+            window.location.href = "https://webapp.aiogram.com";
+
+       
+
         });
 
     </script>
