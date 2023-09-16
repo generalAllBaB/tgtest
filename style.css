@@ -34,6 +34,20 @@
      background: var(--tg-theme-bg-collor);
    }
 
+   button {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 50px;
+     height: 60px;
+     width: 200px;
+     font-size: 20px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: all 500ms ease;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
+   }
+
 
 }   
 
@@ -62,6 +76,20 @@
      background: var(--tg-theme-bg-collor);
    }
 
+   button {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 50px;
+     height: 60px;
+     width: 200px;
+     font-size: 20px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: all 500ms ease;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
+   }   
+
 }
 
 @media screen and (max-width: 998px) {
@@ -85,6 +113,20 @@
    body {
      font-family: 'Montserrat', sans-serif;
      font-weight: 200;
+     color: var(--tg-theme-text-collor);
+     background: var(--tg-theme-bg-collor);
+   }
+
+   button {
+     border: 0;
+     border-radius: 5px;
+     margin-top: 50px;
+     height: 60px;
+     width: 200px;
+     font-size: 20px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: all 500ms ease;
      color: var(--tg-theme-text-collor);
      background: var(--tg-theme-bg-collor);
    }
