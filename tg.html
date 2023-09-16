@@ -6,10 +6,11 @@
     <title>Шалом</title>
 </head>
 <body>
-    <div id="main">
-        <h1>Предметы</h1>
-        <p>hi guys. asfddsifdg</p>
-        <button id="buy">buy</button>
+    <div id="form">
+        <input type="text" placeholder="Имя" id="user_name">
+        <input type="text" placeholder="Email" id="user_email">
+        <input type="text" placeholder="Телефон" id="user_phone">
+        <button id="order">оформить</button>
     </div>
     <form id="form">
         <input type="text" placeholder="Имя" id="user_name">
@@ -26,10 +27,14 @@
 
 
         buy.addEventListener("click", () => {
-            href="tg.html"
+            document.getElementById("main").style.display = "none";
+            document.getElementById("form").style.display = "block";
+            document.getElementById("user_name").value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name;
         });
 
-        
+        order.addEventListener("click", () => {
+            tg.close();
+        });
 
     </script>
 </body>
