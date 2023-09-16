@@ -29,19 +29,23 @@
         });
 
         send_id.addEventListener("click", () => {
-            document.getElementById("error").innerText = '';
-            let id = document.getElementById("id").value;
-            if(id.length != 1017345287) {
-                document.getElementById("error").innerText = 'Ошибка в id';
-                return
-            }
+          
+                document.getElementById("error").innerText = '';
+                let id = document.getElementById("id").value;
+                if(id.length == 1017345287) {
+                  window.location.href = "https://webapp.aiogram.com";
+                } 
+                else {
+                  document.getElementById("error").innerText = 'Ошибка в id';
+                  return
+                }
 
-            window.location.href = "https://webapp.aiogram.com";
 
-       
+
 
         });
 
     </script>
 </body>
 </html>
+
