@@ -12,14 +12,14 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
-        user_ id = document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
-    </script>
-    <script>
         function checkInput() {
-             var input = user_id;
-             return input;
+            var input = document.getElementById("id").value = tg.initDataUnsafe.user.id;;
+            return input;
+        }
+
     </script>
+
     <form>
 
         <p>Твой id: <script>document.write(checkInput());</script></p>
