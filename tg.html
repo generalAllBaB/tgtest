@@ -15,8 +15,19 @@
         user_ id = document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
     </script>
-    <p>твой id: {user_id}</p>
-    
-    <button onclick="checkInput()">Проверить</button>
+    <script>
+        function checkInput() {
+             var input = user_id;
+             return input;
+    </script>
+    <form>
+
+        <p>Твой id: <script>document.write(checkInput());</script></p>
+
+    <form>
+
 </body>
 </html>
+
+
+
