@@ -1,0 +1,35 @@
+<html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>РП и РПС</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Практические</h1>
+        <br>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script> 
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+
+        function end() {
+            window.location.href = "../rp.html";
+        }
+
+        function lec1() {
+            window.location.href = "1.html";
+        }
+
+
+    </script>
+    <button onclick="end()">Назад</button>
+    <br>
+    <br>
+    <button onclick="lec1()">№ 1 Цифровой синтезатор частоты</button>
+ 
+
+</body>
+</html>
