@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Мой Словарь</title>
+    <title>Колледж</title>
 </head>
 <body>
     <div id="main">
-        <h1>Необходимо авторизоваться</h1>
-        <input type="text" placeholder="id" id="id">
+        <h1>Предметы</h1>
+        <br>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
-        document.getElementById("id").value = tg.initDataUnsafe.user.id;
         tg.expand();
     </script>
     <script>
-        function checkInput() {
-             var input = document.getElementById("id").value; // получаем значение поля ввода
-             if (input === "1017345287") { // проверка на соответствие правильному тексту
-                 window.location.href = "tg.html"; // перенаправляем пользователя на другую страницу
-            } else {
-                alert("Введите правильный текст!"); // выводим сообщение об ошибке
-            }
+        function rp() {
+            window.location.href = "tg.html";
         }
     </script>
-
-
-    <button onclick="checkInput()">Проверить</button>
-
+    <button onclick="rp()">РП и РПС</button>
+    <br>
+    <br>
+    <button onclick="checkInput()">ПОПД</button>
+    <br>
+    <br>
+    <button onclick="checkInput()">МДК.04.01</button>
+    <br>
+    <br>
+    <button onclick="checkInput()">Архитект.контр.</button>
+    <br>
+    <br>
 </body>
 </html>
 
