@@ -8,14 +8,33 @@
 <body>
     <div id="main">
         <h1>МДК.04.01</h1>
+        <br>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script> 
         let tg = window.Telegram.WebApp;
         tg.expand();
+
+        function end() {
+            window.location.href = "index.html";
+        }
+
+        function lec() {
+            window.location.href = "mdk04lectures/mdk04lectures.html";
+        }
+
+        function exam() {
+            window.location.href = "mdk04exam/mdk04exame.html";
+        }
     </script>
-
- 
-
+    <button onclick="end()">Назад</button>
+    <br>
+    <br>
+    <button onclick="lec()">Лекции</button>
+    <br>
+    <br>
+    <button onclick="exam()">Вопросы для экзамена</button>
+    <br>
+    <br>
 </body>
 </html>
