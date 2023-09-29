@@ -1,0 +1,53 @@
+<html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ПОПД</title>
+</head>
+<body>
+    <div id="main">
+        <h1>ПОПД Лекции</h1>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script> 
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+
+        function end() {
+            window.location.href = "../popd.html";
+        }
+
+        function lec1() {
+            window.location.href = "1.html";
+        }
+
+        function lec2() {
+            window.location.href = "2.html";
+        }
+
+        function lec3() {
+            window.location.href = "3.html";
+        }
+
+        function lec4() {
+            window.location.href = "4.html";
+        }
+    </script>
+    <button onclick="end()">Назад</button>
+    <br>
+    <br>
+    <button onclick="lec1()">Лекция №1</button>
+    <br>
+    <br>
+    <button onclick="lec2()">Лекция №2</button>
+    <br>
+    <br>
+    <button onclick="lec3()">Лекция №3</button>
+    <br>
+    <br>
+    <button onclick="lec4()">Лекция №4</button>
+    <br>
+    <br>
+</body>
+</html>

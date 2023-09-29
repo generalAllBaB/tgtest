@@ -13,9 +13,26 @@
     <script> 
         let tg = window.Telegram.WebApp;
         tg.expand();
+        function end() {
+            window.location.href = "index.html";
+        }
+
+        function lec() {
+            window.location.href = "popdlectures/popdlectures.html";
+        }
+
+        function pract() {
+            window.location.href = "mdk04.html";
+        }
     </script>
-
- 
-
+    <button onclick="end()">Назад</button>
+    <br>
+    <br>
+    <button onclick="lec()">Лекции</button>
+    <br>
+    <br>
+    <button onclick="pract()">Практические</button>
+    <br>
+    <br>
 </body>
 </html>
