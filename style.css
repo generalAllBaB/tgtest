@@ -13,8 +13,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -30,10 +30,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 2560px;
          margin: 180px auto;
+         display: block;
      }
 
      p {
@@ -55,12 +56,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -76,12 +78,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }   
@@ -90,8 +93,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -107,10 +110,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 2200px;
          margin: 180px auto;
+         display: block;
      }
 
      p {
@@ -132,12 +136,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -153,27 +158,24 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }  
-
-
-
-
 
 
 @media screen and (max-width: 2210px) {
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -189,10 +191,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 2000px;
          margin: 180px auto;
+         display: block;
      }
 
      p {
@@ -214,12 +217,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -235,12 +239,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }  
@@ -249,8 +254,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -266,10 +271,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 1800px;
          margin: 180px auto;
+         display: block;
      }
 
      p {
@@ -291,12 +297,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -312,12 +319,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }  
@@ -327,8 +335,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -344,10 +352,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 1600px;
          margin: 150px auto;
+         display: block;
      }
 
      p {
@@ -369,12 +378,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -390,12 +400,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }  
@@ -404,8 +415,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -421,10 +432,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 1440px;
          margin: 140px auto;
+         display: block;
      }
 
      p {
@@ -446,12 +458,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -467,12 +480,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
@@ -481,8 +495,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -498,10 +512,12 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 1200px;
-         margin: 100px auto;
+         margin: 50px auto;
+         display: block;
+         /* margin: 0 auto; */
      }
 
      p {
@@ -523,12 +539,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -544,12 +561,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
@@ -558,8 +576,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -575,10 +593,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 1024px;
          margin: 100px auto;
+         display: block;
      }
 
      p {
@@ -600,12 +619,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -621,12 +641,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
@@ -635,8 +656,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -652,10 +673,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 768px;
          margin: 100px auto;
+         display: block;
      }
 
      p {
@@ -677,12 +699,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -698,12 +721,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 }
@@ -712,8 +736,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -729,10 +753,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 500px;
          margin: 80px auto;
+         display: block;
      }
 
      p {
@@ -754,12 +779,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -775,12 +801,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
@@ -790,8 +817,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -807,10 +834,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 425px;
          margin: 80px auto;
+         display: block;
      }
 
      p {
@@ -832,12 +860,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -853,12 +882,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
@@ -867,8 +897,8 @@
      body {
          font-family: "Montserrat", sans-serif;
          font-weight: 200;
-         color: var(--tg-theme-text-color);
-         background: var(--tg-theme-bg-color);
+         color: hsl(210, 100%, 100%);
+         background: hsl(230, 6%, 20%);
      }
 
      #main {
@@ -884,10 +914,11 @@
      }
 
      img {
-         position: relative;
-         left: 1%;
+         /* position: relative;
+         left: 1%; */
          width: 320px;
          margin: 20px auto;
+         display: block;
      }
 
      p {
@@ -909,12 +940,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
      .button {
@@ -930,12 +962,13 @@
          font-weight: 500;
          cursor: pointer;
          transition: all 500ms ease;
-         color: var(--tg-theme-button-color);
-         background: var(--tg-theme-button-text-color);
+         color: hsl(230, 93%, 48%);
+         background: hsl(240, 10%, 96%);
      }
 
      .button:hover {
-         background: var(--tg-theme-secondary-bg-color);
+        color: hsla(230, 93%, 48%, 0.764);
+        background: hsla(240, 10%, 96%, 0.852);
      }
 
 } 
