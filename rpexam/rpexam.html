@@ -1,0 +1,39 @@
+<html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>РП и РПС</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Экзамен</h1><br>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script> 
+        let tg = window.Telegram.WebApp;
+        tg.expand();
+
+        function end() {
+            window.location.href = "../rp.html";
+        }
+
+        function exam1() {
+            window.location.href = "exam1.html";
+        }
+
+        function exam2() {
+            window.location.href = "exam2.html";
+        }
+    </script>
+    <button onclick="end()">Назад</button>
+    <br>
+    <br>
+    <button onclick="exam1()">Радиоприемные устройства</button>
+    <br>
+    <br>
+    <button onclick="exam2()">Радиопередающие устройства</button>
+    <br>
+    <br>
+</body>
+</html>
